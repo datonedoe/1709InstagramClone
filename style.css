@@ -1,0 +1,172 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    margin-top:0;
+    background: #fff;
+/*    margin: 0;*/
+}
+
+header {
+    background: #fafafa;
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+    top: 0 ;
+    left: 0;
+    width: 100%;
+    z-index:20;
+}
+
+header a{
+    box-sizing: border-box;
+    width: 24%;
+    display: inline-block;
+    margin-left: -3px;
+    text-align: center;
+    padding: 12px;
+}
+
+header a .fa {
+    color: #323232;
+    font-size: 25px;
+}
+
+body{
+    background-color: #fafafa!important;
+}
+.fa:hover {
+    color: #888;
+} 
+
+.container {
+    background: #fafafa;
+    padding-top: 50px;
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container .card {
+    background: #fff;
+    margin: 0 auto;
+/*    width: 500px;*/
+    max-width: 500px;
+/*    height: 600px;*/
+    border: 1px solid #ccc;
+    border-radius: 3px;
+
+}
+
+.card-header {
+    padding: 15px;
+}
+.profile-img{
+    display: inline-block;
+    background-image: url("https://images.unsplash.com/photo-1500656512470-2b0dc2ad1efc?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=f75342fe3533708df39851d318a54ebf");
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+}
+
+.profile-info{
+    display: inline-block;
+}
+.profile-time{
+    display: inline-block;
+    float: right;
+    font-size: 10px;
+    top: 10px;
+    position: relative;
+}
+
+.location {
+    font-size: 12px;
+    color: #111;
+}
+
+.name {
+    font-size: 14px;
+    color: #111;
+    font-weight: 700;
+}
+
+.content img {
+    width: 100%;
+}
+
+.card-footer {
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.likes{
+    color: #111;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+.description p{
+    font-size: 13px;
+    margin: 0;
+}
+
+.username{
+    font-weight: 700;
+}
+
+.comments p{
+    padding=top: 2px;
+    margin: 0;
+    font-size: 13px;
+}
+
+form {
+    padding-top: 15px;
+}
+form .fa{
+    font-size: 24px;
+}
+.heart{
+    display: inline-block;
+    width: 7%;
+}
+.heart .fa{
+    position: relative;
+    top: 3px;
+}
+
+.add-comment{
+    display: inline-block;
+    width: 70%;
+}
+.add-comment input {
+    width: 100%;
+    padding: 5px;
+    font-weight: 16px;
+    border: 0 solid #fff;
+    
+}
+
+input:focus{
+   outline: none;
+}
+.options {
+    display: inline-block;
+    width: 7%;
+    float: right;
+}
+
+.option .fa{
+    position: relative;
+    top: 3px;
+}
+
+hr{
+    padding: 0;
+}
